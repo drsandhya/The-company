@@ -1,0 +1,136 @@
+
+.navbar{
+    background-color: rgb(221, 232, 241);
+}
+.nav-link{
+
+    font-size: 1rem !important;
+    text-transform: uppercase !important;
+    color: hsl(0, 0%, 34%);
+    margin: 0 8px;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: rgb(17, 0, 175)!important;
+    /* font-weight: 400!important; */
+    /* font-size: 1.1rem!important; */
+}
+
+.container .row .col-lg-8{
+    z-index: 999;
+}
+
+.navbar-nav{
+margin-left: 15rem;
+
+}
+/* =================================================== slider css==================================== */
+.carousel-caption{
+    bottom: 20rem;
+    left: 10%; 
+    text-align: center;
+}
+.carousel-caption h5{
+    font-size: 3rem;
+
+}
+.caroone{
+   margin-left: 10%;
+}
+
+/* =================================================== Section one ==================================== */
+ 
+
+.img-left img{
+    
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+    
+}
+.img-left img:hover{
+    transform: scale(1.1);
+}
+/* section three */
+.card {
+    margin: 10px!important;
+    border: none;
+}
+.card-img-top{
+    
+    transform: scale(0.9);
+    transition: 0.3s ease-in-out;
+    
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+/* section five */
+
+.progress-bar{
+    transform: width(0%);
+    transition: 0.3s ease-in-out; 
+}
+.progress-bar:hover{
+    transform: width(70%);
+
+}
+/* part seven */ 
+.img-box {
+    float: left;
+    margin-right: 22px;
+    display: inline-block;
+    width: 78px;
+    height: 78px;
+    line-height: 74px;
+    text-align: center;
+    border: 2px solid #FFDA44;
+}
+/* section eight */
+
+.blockquote{
+    
+    background: #ffffff;
+    font-size: 19px;
+    color: #677078;
+    line-height: 1.684;
+    text-align: left;
+    border: none;
+    margin: 0 0 50px;
+    padding: 40px 33px;
+    position: relative;
+    margin-bottom: 40px;
+    
+
+}
+/* section nine */
+
+.accordion-button{
+    color: rgb(75, 136, 248)!important;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.accordion{
+    border: 1px solid rgb(163, 161, 161);
+    padding: 12px;
+}
+/* col second */
+.list-group-item span{
+    float: right
+}
+.list-group-item{
+    color: gray;
+    padding: 0px 20px;
+    border: none;
+    /* border-bottom: 1px solid rgb(189, 189, 189); */
+   
+}   
+.list-group-item:hover{
+    color: rgb(255, 191, 107);
+    
+}
+/* about overview section one */
+.section-one ul li{
+    text-decoration: none;
+
+}
+
